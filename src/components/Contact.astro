@@ -1,16 +1,11 @@
 ---
-import Button from '@components/ui/Button.astro';
-import Social from '@components/ui/Social.astro';
 ---
 
-<section
-	data-testid="contact"
-	id="contact"
-	class="flex flex-col flex-wrap items-center justify-center gap-8 text-black dark:text-white lg:mb-0 lg:h-screen"
->
-	<Button size={'lg'} style={'primary'} name="Contact">Say hello!</Button>
-	<hr class="w-1/2" />
-	<div class="flex flex-col gap-8 lg:flex lg:flex-row lg:gap-20">
-		<Social />
-	</div>
+<section id="contact" class="py-10">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-4">Contacto</h2>
+    <p class="mb-4">📧 Email: <a href="mailto:roxana.rapali@gmail.com" class="text-orange">roxana.rapali@gmail.com</a></p>
+    <p class="mb-4">📱 WhatsApp: <a href="https://wa.me/5493425018700" target="_blank" class="text-orange">+54 9 342 501 8700</a></p>
+    <a href="https://drive.google.com/file/d/1yntgD4ujbHXxeGHk6AdVPp-q9ES78_HZ/view?usp=drive_link" target="_blank" class="inline-block mt-4 px-6 py-2 bg-orange text-white rounded">Descargar CV</a>
+  </div>
 </section>
