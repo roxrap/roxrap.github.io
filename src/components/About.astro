@@ -1,24 +1,25 @@
 ---
+import Social from '@components/ui/Social.astro';
 ---
 
-<section
-	data-testid="about"
-	id="about"
-	class="mb-10 flex flex-col items-center justify-center lg:mb-0 lg:h-screen lg:flex-row"
->
-	<div class="mb-10 flex w-full flex-col items-center justify-center lg:mb-0 lg:w-1/2">
-		<h2 class="font-monospace text-2xl text-orange lg:text-4xl">About me</h2>
-		<span class="mb-6 ml-2 h-1 w-10 bg-orange"></span>
-	</div>
-
-	<div class="w-full text-justify text-black dark:text-white lg:w-1/2">
-		<p class="mb-2">
-			Here is your description in English! Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-			irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-			id est laborum
-		</p>
-	</div>
+<section id="about" class="py-10">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-4">Acerca de mí</h2>
+    <p class="mb-4">
+      🎯 Soy Roxana, analista de datos con enfoque estratégico en áreas de negocio como créditos, cobranzas, ventas y atención al cliente.
+    </p>
+    <p class="mb-4">
+      Me apasiona descubrir oportunidades a través de los datos: crear dashboards, automatizar reportes, detectar insights y colaborar con líderes para tomar decisiones informadas. Disfruto trabajar en entornos multidisciplinarios y contribuir al crecimiento organizacional desde el análisis.
+    </p>
+    <p class="mb-4">
+      🔧 Herramientas que uso: Power BI, Excel, SQL, Python, CRM y plataformas de reporting.
+    </p>
+    <p class="mb-4">
+      💬 Me encanta comunicar: armar informes claros, presentarlos, capacitar y acompañar procesos de mejora.
+    </p>
+    <p class="mb-4">
+      📍 Santa Fe, Argentina
+    </p>
+    <Social />
+  </div>
 </section>
