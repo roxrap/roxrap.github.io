@@ -1,8 +1,8 @@
 ---
 inProgress: false
-title: Project title
-description: Project description
-img_alt: project image alt text
-link: https://github.com/veranikabarel?tab=repositories
-tags: ['React', 'CSS', 'Typescript']
+title: Foro Atractivo y Responsivo
+description: Este proyecto permite a los usuarios crear publicaciones con imágenes y fechas, en una plataforma responsiva y moderna para foros.
+img_alt: Captura del foro atractivo
+link: https://github.com/roxrap/Programacion_Web
+tags: ['HTML', 'CSS', 'JavaScript']
 ---
